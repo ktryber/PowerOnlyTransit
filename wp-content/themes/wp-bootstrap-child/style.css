@@ -1,0 +1,15 @@
+/*
+Theme Name: wordpress-bootstrap-child
+Theme URI: http://www.poweronlytransit.com;
+Description: This is a custom child theme I have created.
+Author: Kris Tryber
+Author URI: http://www.poweronlytransit.com
+Template: wordpress-bootstrap
+Version: 0.1
+*/
+@import url("../wordpress-bootstrap/style.css");
+
+
+	.hero-unit h1 {
+		font-size: 200px;
+	}
