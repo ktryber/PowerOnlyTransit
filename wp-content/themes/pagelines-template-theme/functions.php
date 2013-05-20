@@ -28,3 +28,19 @@ require_once( dirname(__FILE__) . '/setup.php' );
 
 	// The following filter will add the font  Ubuntu into the font array $thefoundry.
 	// This makes the font available to the framework and the user via the admin panel.
+/*
+#######################################
+Replace the default jQuery with the official Google jQuery library
+#######################################
+*/
+ 
+//Making jQuery Google API
+function modify_jquery() {
+        if (!is_admin()) {
+                // comment out the next two lines to load the local copy of jQuery
+                wp_deregister_script('jquery');
+                wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js', false, '2.0.0');
+                wp_enqueue_script('jquery');
+        }
+}
+add_action('init', 'modify_jquery');

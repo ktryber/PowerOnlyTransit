@@ -90,7 +90,7 @@ Lease On Banner
 .lease-on-banner {
 	background-image: url(http://localhost:8888/poweronly1/assets/white-truck-image-side.jpg)no-repeat;
 	height: 100%;
-	
+	border: 1px 1px solid black;
 	background-color: #d9dadb;
 	border-radius: 5px;
 	margin-bottom: 20px;
@@ -121,6 +121,25 @@ Lease On Banner
 }
 
 /**********************
+Sidebar Testimonials
+**********************/
+.sidebar-testimonials {
+	background-color: #efefef ;
+	border-radius: 5px;
+	
+}
+
+.sidebar-testimonials h3 {
+	text-align: center;
+	color: #333333;
+}
+
+#testimonials .client-contact-info {
+	text-align: center;
+	
+}
+
+/**********************
 box stylings
 **********************/
 
@@ -135,7 +154,7 @@ box stylings
 }
 
 .box-media-pad {
-	background-color: #f4f0e6;
+	background-color: #efefef;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 	border-radius: 5px;
 	padding: 5px;
