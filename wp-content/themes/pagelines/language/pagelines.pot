@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the PageLines package.
 msgid ""
 msgstr ""
-"Project-Id-Version: PageLines 1.4.0\n"
+"Project-Id-Version: PageLines 1.4.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/pagelines\n"
-"POT-Creation-Date: 2013-04-29 21:51:44+00:00\n"
+"POT-Creation-Date: 2013-05-14 19:12:51+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -292,7 +292,7 @@ msgstr ""
 msgid "Hide Section Guide"
 msgstr ""
 
-#: includes/class.sections.php:795
+#: includes/class.sections.php:807
 msgid "Set Meta"
 msgstr ""
 

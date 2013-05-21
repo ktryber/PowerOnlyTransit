@@ -23,17 +23,14 @@ class PageLinesBranding extends PageLinesSection {
 
 			printf('<div class="branding_wrap fix">');
 
-				pagelines_main_logo(); 
+				pagelines_main_logo();
 
 				pagelines_register_hook( 'pagelines_before_branding_icons', 'branding' ); // Hook
 
 				printf('<div class="icons" style="bottom: %spx; right: %spx;">', intval(pagelines_option('icon_pos_bottom')), pagelines_option('icon_pos_right'));
 
-					pagelines_register_hook( 'pagelines_branding_icons_start', 'branding' );// Hook?>
+					pagelines_register_hook( 'pagelines_branding_icons_start', 'branding' ); // Hook
 
-					<div class="header-text"><p>Call Us: (888) 206-5830</p></div>
-
-					<?php
 					if(ploption('rsslink'))
 						printf('<a target="_blank" href="%s" class="rsslink"><img src="%s" alt="RSS"/></a>', apply_filters( 'pagelines_branding_rssurl', get_bloginfo('rss2_url') ), $this->base_url.'/rss.png' );
 
