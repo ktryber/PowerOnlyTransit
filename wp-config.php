@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 /**
  * The base configurations of the WordPress.
  *
@@ -14,15 +17,23 @@
  * @package WordPress
  */
 
+//First we check for development env
+if ( file_exists( dirname( __FILE__ ) . '/dev-config.php' ) ) { 
+    include( dirname( __FILE__ ) . '/dev-config.php' ); 
+ 
+} elseif  ( file_exists( dirname( __FILE__ ) . '/stage-config.php' ) ) {
+    //then we check for staging env
+    include( dirname( __FILE__ ) . '/stage-config.php' ); 
+}else {
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'poweronly1');
+define('DB_NAME', 'ktryber_poweronly1');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'ktryber_po1');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Port1land@');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -32,7 +43,7 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
+}
 /**#@+
  * Authentication Unique Keys and Salts.
  *
