@@ -99,6 +99,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
-update_option('siteurl','http://localhost:8888/poweronly1');
-update_option('home','http://localhost:8888/poweronly1');
