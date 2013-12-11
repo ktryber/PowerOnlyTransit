@@ -18,8 +18,8 @@ define('WP_CACHE', true); // Added by W3 Total Cache
  */
 
 //First we check for development env
-if ( file_exists( dirname( __FILE__ ) . '/dev-config.php' ) ) { 
-    include( dirname( __FILE__ ) . '/dev-config.php' ); 
+if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) { 
+    include( dirname( __FILE__ ) . '/wp-config-local.php' ); 
  
 } elseif  ( file_exists( dirname( __FILE__ ) . '/stage-config.php' ) ) {
     //then we check for staging env
