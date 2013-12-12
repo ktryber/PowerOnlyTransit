@@ -1,10 +1,10 @@
-# Copyright (C) 2010 PageLines
-# This file is distributed under the same license as the PageLines package.
+# Copyright (C) 2010 PageLines Framework
+# This file is distributed under the same license as the PageLines Framework package.
 msgid ""
 msgstr ""
-"Project-Id-Version: PageLines 1.4.1\n"
+"Project-Id-Version: PageLines Framework 2.4.4\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/pagelines\n"
-"POT-Creation-Date: 2013-05-14 19:12:51+00:00\n"
+"POT-Creation-Date: 2013-06-19 20:27:43+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,59 +12,59 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: includes/class.register.php:314
+#: includes/class.register.php:297
 msgid "Primary Sidebar"
 msgstr ""
 
-#: includes/class.register.php:315
+#: includes/class.register.php:298
 msgid "The main widgetized sidebar."
 msgstr ""
 
-#: includes/class.register.php:318
+#: includes/class.register.php:301
 msgid "Secondary Sidebar"
 msgstr ""
 
-#: includes/class.register.php:319
+#: includes/class.register.php:302
 msgid "The secondary widgetized sidebar for the theme."
 msgstr ""
 
-#: includes/class.register.php:322
+#: includes/class.register.php:305
 msgid "Tertiary Sidebar"
 msgstr ""
 
-#: includes/class.register.php:323
+#: includes/class.register.php:306
 msgid ""
 "A 3rd widgetized sidebar for the theme that can be used in standard sidebar "
 "templates."
 msgstr ""
 
-#: includes/class.register.php:326
+#: includes/class.register.php:309
 msgid "Universal Sidebar"
 msgstr ""
 
-#: includes/class.register.php:327
+#: includes/class.register.php:310
 msgid "A universal widgetized sidebar"
 msgstr ""
 
-#: includes/class.register.php:331
+#: includes/class.register.php:314
 msgid "Full Width Sidebar"
 msgstr ""
 
-#: includes/class.register.php:332
+#: includes/class.register.php:315
 msgid "Shows full width widgetized sidebar."
 msgstr ""
 
-#: includes/class.register.php:335
+#: includes/class.register.php:318
 msgid "Content Sidebar"
 msgstr ""
 
-#: includes/class.register.php:336
+#: includes/class.register.php:319
 msgid ""
 "Displays a widgetized sidebar inside the main content area. Set it up in the "
 "widgets panel."
 msgstr ""
 
-#: includes/class.register.php:380 admin/class.extend.php:1212
+#: includes/class.register.php:363 admin/class.extend.php:1213
 msgid "<h2>Unable to fetch from API</h2>"
 msgstr ""
 
@@ -292,7 +292,7 @@ msgstr ""
 msgid "Hide Section Guide"
 msgstr ""
 
-#: includes/class.sections.php:807
+#: includes/class.sections.php:810
 msgid "Set Meta"
 msgstr ""
 

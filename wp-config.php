@@ -43,6 +43,9 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+ define('WP_HOME','http://poweronlytransit.com/');
+  define('WP_SITEURL','http://poweronlytransit.com/');
 }
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -99,6 +102,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
-  define('WP_HOME','http://poweronlytransit.com');
-  define('WP_SITEURL','http://poweronlytransit.com');
