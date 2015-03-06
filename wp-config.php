@@ -33,7 +33,7 @@ define('DB_NAME', 'ktryber_poweronly1');
 define('DB_USER', 'ktryber_po1');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Port1land@');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
